@@ -1,7 +1,7 @@
 {
   "site": {
-    "title": "Gianmarco Cavallo - Freelance front-end Developer",
-    "description": "I'm a developer based in Italy, passionate about user experience and specializing in engaging animations and micro-interactions. My primary tools of choice include: JavaScript, React, Solid.js, Astro, Svelte, and Node.js.",
+    "title": "Mukarram Baig - Software Developmment student at NAIT",
+    "description": "I'm a Software developer studnet at NAIT, passionate about building and designing websites. My primary tools of choice include: JavaScript, React, Node.js, HTML and CSS.",
     "footer": {
       "year": "2026",
       "prefix": "Built on",
@@ -25,20 +25,20 @@
   },
   "intro": {
     "welcomeLabel": "welcome",
-    "name": "Gianmarco Cavallo",
-    "summary": "a software developer with strong focus on the user experience, animations and micro interactions",
+    "name": "Mukarram Baig",
+    "summary": "a software developer student who is passionate about learning .Net programming",
     "socialButtons": [
       {
         "ariaLabel": "github profile",
         "screenReaderLabel": "GitHub Profile",
         "icon": "ri:github-fill",
-        "url": "https://github.com/Ladvace"
+        "url": "https://github.com/Mukarram55"
       },
       {
         "ariaLabel": "linkedin profile",
         "screenReaderLabel": "Linkedin Profile",
         "icon": "ri:linkedin-box-fill",
-        "url": "https://www.linkedin.com/in/gianmarco-cavallo/"
+        "url": "www.linkedin.com/in/mirza-mukarram-baig-563b74b0"
       },
       {
         "ariaLabel": "dribble profile",
@@ -59,37 +59,35 @@
   },
   "about": {
     "title": "About me",
-    "intro": "Hi, I'm Gianmarco, a front-end software developer from Italy.",
+    "intro": "Hi, I'm Mukarram, a software developer studnet from Canada.",
     "toolsIntro": "My primary tools of choice includes:",
     "tools": [
       "JavaScript",
       "React",
-      "Solidjs",
-      "Astro",
-      "Svelte",
-      "Nodejs"
+      "HTML",
+      "CSS"
     ],
-    "passion": "Beyond coding, I'm passionate about design, illustration, animation and 3D modelling and traveling. An unusual hobby of mine is collecting vintage passports, they're interesting pieces of history to me.",
-    "approach": "While I have some preferred tools, I always choose the best one for the job, even if it's not on my usual list. My goal is to find the right solution for each project."
+    "passion": "Beyond coding, I'm passionate about creative design, digital illustration, animation, and exploring new technologies. I also enjoy traveling and experiencing different cultures, which inspires both my creativity and problem-solving approach.",
+    "approach": "I focus on writing clean, efficient, and maintainable code while continuously learning new tools and technologies. Rather than sticking to one stack, I prioritize choosing the best solution for each project and adapting quickly to new challenges."
   },
   "contacts": {
     "title": "Let's start working together!",
     "contactDetailsTitle": "Contact Details",
-    "email": "contact@gianmarcocavallo.com",
-    "location": "Italy",
+    "email": "mukarrambg1@gmail.com",
+    "location": "Canada",
     "socialsTitle": "Socials",
     "socialLinks": [
       {
         "label": "Linkedin",
-        "url": "https://www.linkedin.com/in/gianmarco-cavallo/"
+        "url": "www.linkedin.com/in/mirza-mukarram-baig-563b74b0"
       },
       {
         "label": "Github",
-        "url": "https://github.com/Ladvace"
+        "url": "https://github.com/Mukarram55"
       },
       {
         "label": "Discord",
-        "url": "https://discordapp.com/users/163300027618295808"
+        "url": "https://discordapp.com/users/Mukarrambaig"
       }
     ]
   },
