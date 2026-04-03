@@ -19,6 +19,7 @@ export async function getServerSideProps() {
 
   return {props: {weather} };
 }
+export default function Home ({weather}) {
   useEffect(() => {
     if (window.matchMedia("(prefers-reduced-motion: reduce)").matches) {
       return;
@@ -124,4 +125,4 @@ export async function getServerSideProps() {
       </main>
     </Layout>
   );
-}
+};
