@@ -18,7 +18,7 @@ export function getWeatherLocationFromProfile(profile) {
         }
     }
 
-    const contactLocation = prfile?.contacts?.location?.trim();
+    const contactLocation = profile?.contacts?.location?.trim();
     return contactLocation || "Edmonton";
 }
 
@@ -32,7 +32,7 @@ export async function getWeatherForProfile(profile, apiKey) {
         };
     }
 
-    const weatherUrl = new URL("https://api.opennweathermap.org/data/2.5/weather");
+    const weatherUrl = new URL("https://api.openweathermap.org/data/2.5/weather");
     weatherUrl.searchParams.set("q", location);
     weatherUrl.searchParams.set("units", "metric");
     weatherUrl.searchParams.set("appid", apiKey);
