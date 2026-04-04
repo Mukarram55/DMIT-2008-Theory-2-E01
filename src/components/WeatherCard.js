@@ -1,18 +1,18 @@
 import Card from "./Card";
 import Image from "next/image";
 
-function formatTemprature(tempratureC) {
-   if(typeof tempratureC !== "number") {
+function formatTemprature(temperatureC) {
+   if(typeof temperatureC !== "number") {
     return "--";
    }
 
-   return `${Math.round(tempratureC)}°C`;
+   return `${Math.round(temperatureC)}°C`;
 }
 
 export default function WeatherCard({ weather }) {
    const hasWeather =
    weather &&
-   typeof weather.tempratureC === "number" &&
+   typeof weather.temperatureC === "number" &&
    Boolean(weather.description);
 
    return (
@@ -36,7 +36,7 @@ export default function WeatherCard({ weather }) {
                     ) : null}
                     <div className="flex flex-col">
                         <p className="text-3xl leading-none font-serif">
-                            {formatTemprature(weather.tempratureC)}
+                            {formatTemprature(weather.temperatureC)}
                         </p>
                          <p className="text-sm font-light text-neutral-300">
                             {weather.description}
